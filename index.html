@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+
+    <div class="title">
+        <h1>Example form</h1>
+        <div class="info">
+            <span>All:&nbsp;15</span>
+            <span>Needs:&nbsp;12</span>
+            <span id="success">Success:&nbsp;0/12</span>
+            <span id="error">Error:&nbsp;0/12</span>
+        </div>
+    </div>
+
+    <div class="container">
+        <form name="signup">
+            <div class="left">
+
+                <div class="required">
+                    <label for="name">Name</label>
+                    <input type="name" id="name" name="name">
+                    <span class="error-text">Need to fill</span>
+                </div>
+
+                <div class="required">
+                    <label for="surname">Surname</label>
+                    <input type="surname" id="surname" name="surname">
+                    <span class="error-text">Need to fill</span>
+                </div>
+
+                <div class="required">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                    <span class="error-text">Need to fill</span>
+                </div>
+
+                <div class="required">
+                    <label for="phone">Phone number</label>
+                    <input type="phone" id="phone" name="phone">
+                    <span class="error-text">Need to fill</span>
+                </div>
+
+                <div class="unrequired">
+                    <label for="mom">Your Mom's name</label>
+                    <input type="text" id="mom" name="mom">
+                    <span class="error-text">Need to fill</span>
+                </div>
+
+                <div class="unrequired">
+                    <label for="dad">Your Pap's name</label>
+                    <input type="text" id="dad" name="dad">
+                    <span class="error-text">Need to fill</span>
+                </div>
+            </div>
+            
+            <div class="right">
+                <div class="required">
+                    <label for="age">Age</label>
+                    <input type="age" id="age" name="age" placeholder="Age from 8 years">
+                    <span class="error-text">Need to fill</span>
+                </div>
+
+
+                <div class="required">
+                    <label for="itself">About You</label>
+                    <input type="text" id="itself" name="itself">
+                    <span class="error-text">Need to fill</span>
+                </div>
+
+                <div class="required">
+                    <label for="js">What's JavaScript</label>
+                    <input type="text" id="js" name="js">
+                    <span class="error-text">Need to fill</span>
+                </div>
+
+                <div class="required">
+                    <label for="html">What's HTML</label>
+                    <input type="text" id="html" name="html">
+                    <span class="error-text">Need to fill</span>
+                </div>
+
+                <div class="required">
+                    <label for="css">What's Css</label>
+                    <input type="text" id="css" name="css">
+                    <span class="error-text">Need to fill</span>
+                </div>
+
+                <div class="required">
+                    <label for="car">Your favourite car</label>
+                    <input type="text" id="car" name="car">
+                    <span class="error-text">Need to fill</span>
+                </div>
+            </div>
+
+<div class="midline">
+            <button>Save changes</button>
+        </div>
+        </form>
+    </div>
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
